@@ -51,7 +51,7 @@ def main(): # initialize chatbot/agent
         ): # loop through each chunk of response
             if "agent" in chunk and "messages" in chunk["agent"]: # If chunk contains agent messages
                 for messsage in chunk["agent"]["messages"]: # loop through each message
-                    print(messsage["content"], end="") # stream the output giving the impression the agent is typing rather than outputting it all at once
+                    print(messsage.content, end="") # stream the output giving the impression the agent is typing rather than outputting it all at once
 
         print()
 
