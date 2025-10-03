@@ -1,4 +1,6 @@
 # This version uses OpenAI which can incurse costs. Please be aware of your usage.
+# Change the OPENAI_API_KEY in the .env file to your own key
+
 from langchain_core.messages import HumanMessage  # highe level framework to build AI applications
 from langchain_openai import ChatOpenAI # to use open AI within langchain and langgraph
 from langchain.tools import tool
@@ -55,5 +57,4 @@ def main(): # initialize chatbot/agent
 
 if __name__ == "__main__":
     main()# run the main function only if this script is run directly vs e.g. called from another file (convention)
-
 
