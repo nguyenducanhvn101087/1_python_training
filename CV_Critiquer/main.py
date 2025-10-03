@@ -84,6 +84,8 @@ if analyze and uploaded_file: # ensure file is uploaded before analyzing
 
 # Room for improvements: add a second file uploader for job description and have AI compare CV to job description - TODO
         
+# To run this app, use the command: uv run streamlit run main.py
+# uv manges virtual environments and dependencies hence uv run 
 
 
 
