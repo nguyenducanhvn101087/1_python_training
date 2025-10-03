@@ -58,7 +58,7 @@ def main():
 
                 if predictions:
                     st.subheader("Top 3 Predictions:")
-                    for _, label, score in predictions: #_ = anonymous variable as the 1st one we don't care, only label and score
+                    for _, label, score in predictions: #_ = anonymous variable as we don't care about the 1st element of output, only label and score
                         st.write(f"**{label}**: {score * 100:.2f}%")  # show label in bold and score as percentage  
 
 if __name__ == "__main__":
