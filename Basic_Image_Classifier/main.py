@@ -64,5 +64,7 @@ def main():
 if __name__ == "__main__":
     main()
 
-# To run this app, use the command: uv run streamlit run main.py 
+# To run this app, use the command: uv run streamlit run main.py in terminal on a Linux system
 # uv manages the virtual environment and dependencies, hence uv run
+
+# To-do: new ideas, improve UI, add more features, optimize performance, etc.
