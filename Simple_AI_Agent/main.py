@@ -57,4 +57,11 @@ def main(): # initialize chatbot/agent
 
 if __name__ == "__main__":
     main()# run the main function only if this script is run directly vs e.g. called from another file (convention)
+    
+# To-do
+# 1. Add more tools for the agent to use
+# 2. Improve the user interface
+# 3. Add error handling
+# 4. Implement logging
+# 5. Write tests
 
